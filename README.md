@@ -13,16 +13,18 @@ I enjoy working on practical projects, learning new technologies, and strengthen
 ## Features
 - Responsive layout for mobile and desktop devices  
 - Dedicated sections for profile, skills, and projects  
-- Clean and simple user interface  
+- Clean and modern user interface  
 - Contact information for professional communication  
 
 ---
 
 ## Technologies Used
-- HTML  
-- CSS  
-- JavaScript  
-- Git and GitHub  
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Git and GitHub
 
 ---
 
@@ -36,4 +38,22 @@ I enjoy working on practical projects, learning new technologies, and strengthen
 ## Currently Improving
 - Frontend Web Development  
 - Fundamentals of Cyber Security
-- CCNA Self Study Cource
+- CCNA Self Study Course
+
+---
+
+## Getting Started
+
+```sh
+# Clone the repository
+git clone git@github.com:SVAR1978/portfolio.git
+
+# Navigate to the project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
