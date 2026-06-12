@@ -35,19 +35,16 @@ const Contact = () => {
   const contactLinks = [
     {
       label: "Email",
-      value: personalInfo.email,
       href: `mailto:${personalInfo.email}`,
       icon: <MailIcon />,
     },
     {
       label: "GitHub",
-      value: "github.com/vikash",
       href: personalInfo.github,
       icon: <GithubIcon />,
     },
     {
       label: "LinkedIn",
-      value: "linkedin.com/in/vikash",
       href: personalInfo.linkedin,
       icon: <LinkedinIcon />,
     },
@@ -96,9 +93,6 @@ const Contact = () => {
                 <div>
                   <p className="text-[11px] text-white/40 font-body uppercase tracking-wider">
                     {link.label}
-                  </p>
-                  <p className="text-white font-body font-medium text-sm">
-                    {link.value}
                   </p>
                 </div>
               </a>

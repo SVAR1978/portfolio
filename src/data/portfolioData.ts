@@ -3,8 +3,8 @@ export const personalInfo = {
   title: "Final Year Software Engineering Student",
   subtitle: "Aspiring Software Developer",
   email: "rn07051978@gmail.com",
-  github: "https://github.com/vikash",
-  linkedin: "https://linkedin.com/in/vikash",
+  github: "https://github.com/SVAR1978",
+  linkedin: "https://www.linkedin.com/in/vikash-adivasi",
   resumeUrl: "#",
 };
 
@@ -23,34 +23,7 @@ export const skills = {
 };
 
 export const projects = [
-  {
-    title: "E-Commerce Platform",
-    description: "Full-stack online shopping platform with user authentication, product catalog, and secure checkout. Solved cart abandonment through streamlined UX.",
-    techStack: ["React", "Node.js", "MongoDB", "Stripe"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "Task Management System",
-    description: "Collaborative project management tool enabling teams to track progress, assign tasks, and meet deadlines efficiently.",
-    techStack: ["Next.js", "TypeScript", "PostgreSQL", "Prisma"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "Security Vulnerability Scanner",
-    description: "Automated tool for identifying common web security vulnerabilities including XSS and SQL injection patterns.",
-    techStack: ["Python", "Flask", "BeautifulSoup", "SQLite"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "Real-Time Chat Application",
-    description: "Instant messaging platform with WebSocket integration, supporting private and group conversations with message persistence.",
-    techStack: ["React", "Socket.io", "Express", "Redis"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
+  
   {
     title: "Sentry — Real-Time Monitoring",
     description: "Distributed real-time monitoring and alerting system using WebSockets for live event streaming. Built scalable REST APIs with RBAC, optimized Prisma DB ops for 30% faster queries, and automated email alerts delivered under 2 seconds.",
@@ -69,6 +42,13 @@ export const projects = [
     title: "AI Interviewer",
     description: "ML-powered interview simulator generating 500+ dynamic technical and behavioral questions via OpenAI API. Delivers personalized feedback improving answer quality by 25%, with 30% reduced API latency through caching.",
     techStack: ["React.js", "Node.js", "Python", "OpenAI API"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    title: "Real-Time Chat Application",
+    description: "Instant messaging platform with WebSocket integration, supporting private and group conversations with message persistence.",
+    techStack: ["React", "Socket.io", "Express", "Redis"],
     liveUrl: "#",
     githubUrl: "#",
   },

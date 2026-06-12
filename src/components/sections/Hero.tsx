@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { personalInfo, aboutText, skills } from "@/data/portfolioData";
+import { personalInfo, aboutText, skills, projects } from "@/data/portfolioData";
 import FadingVideo from "@/components/FadingVideo";
 import BlurText from "@/components/BlurText";
 
@@ -180,7 +180,7 @@ const Hero = () => {
             <div className="liquid-glass rounded-[1.25rem] p-5 w-[220px] text-left">
               <ClockIcon />
               <p className="text-4xl font-heading italic text-white tracking-[-1px] leading-none mt-3">
-                7+
+                {projects.length}+
               </p>
               <p className="text-xs text-white/70 font-body font-light mt-2">
                 Projects Built & Deployed
@@ -189,7 +189,7 @@ const Hero = () => {
             <div className="liquid-glass rounded-[1.25rem] p-5 w-[220px] text-left">
               <CodeIcon />
               <p className="text-4xl font-heading italic text-white tracking-[-1px] leading-none mt-3">
-                6+
+                {skills.languages.length}+
               </p>
               <p className="text-xs text-white/70 font-body font-light mt-2">
                 Programming Languages
