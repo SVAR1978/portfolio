@@ -7,8 +7,10 @@ const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
+  const paragraphs = aboutText.split("\n\n");
+
   return (
-    <section id="about" className="bg-secondary/30">
+    <section id="about" className="relative bg-black py-24">
       <div className="section-container">
         <motion.div
           ref={ref}
@@ -16,15 +18,24 @@ const About = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="section-title">About Me</h2>
-          <p className="section-subtitle">A brief introduction</p>
-          
+          <p className="section-kicker">// About Me</p>
+          <h2 className="section-title mb-8">
+            A brief
+            <br />
+            introduction
+          </h2>
+
           <div className="max-w-3xl">
-            {aboutText.split('\n\n').map((paragraph, index) => (
-              <p key={index} className="text-muted-foreground leading-relaxed mb-4 last:mb-0">
-                {paragraph}
-              </p>
-            ))}
+            <div className="liquid-glass card-glass">
+              {paragraphs.map((paragraph, index) => (
+                <p
+                  key={index}
+                  className="text-white/80 font-body font-light leading-relaxed mb-4 last:mb-0 text-base"
+                >
+                  {paragraph}
+                </p>
+              ))}
+            </div>
           </div>
         </motion.div>
       </div>

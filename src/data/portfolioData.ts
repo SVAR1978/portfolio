@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: "Vikash",
-  title: "Pre-Final Year Software Engineering Student",
-  subtitle: "Aspiring Software Developer | Interested in Full-Stack & Cyber Security",
-  email: "vikash@example.com",
+  title: "Final Year Software Engineering Student",
+  subtitle: "Aspiring Software Developer",
+  email: "rn07051978@gmail.com",
   github: "https://github.com/vikash",
   linkedin: "https://linkedin.com/in/vikash",
   resumeUrl: "#",
@@ -51,13 +51,34 @@ export const projects = [
     liveUrl: "#",
     githubUrl: "#",
   },
+  {
+    title: "Sentry — Real-Time Monitoring",
+    description: "Distributed real-time monitoring and alerting system using WebSockets for live event streaming. Built scalable REST APIs with RBAC, optimized Prisma DB ops for 30% faster queries, and automated email alerts delivered under 2 seconds.",
+    techStack: ["Node.js", "TypeScript", "WebSockets", "Prisma"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    title: "Security Management Dashboard",
+    description: "Full-stack security platform with real-time risk scoring, OWASP vulnerability tracking, drag-and-drop Kanban board, Redis caching with per-user isolation, and multi-format reporting with PDF/CSV/JSON export.",
+    techStack: ["React 19", "Express 5", "PostgreSQL", "Redis"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    title: "AI Interviewer",
+    description: "ML-powered interview simulator generating 500+ dynamic technical and behavioral questions via OpenAI API. Delivers personalized feedback improving answer quality by 25%, with 30% reduced API latency through caching.",
+    techStack: ["React.js", "Node.js", "Python", "OpenAI API"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
 ];
 
 export const education = [
   {
-    degree: "B.Tech in Software Engineering",
-    institution: "University Name",
-    duration: "2022 - Present (Pre-Final Year)",
+    degree: "B.Tech in Computer Science and Engineering",
+    institution: "National Institute of Technology Delhi",
+    duration: "2023 - 2027 (Final Year)",
     description: "Focused on software development principles, data structures, algorithms, and practical project work.",
   },
 ];
