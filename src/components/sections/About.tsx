@@ -10,7 +10,7 @@ const About = () => {
   const paragraphs = aboutText.split("\n\n");
 
   return (
-    <section id="about" className="relative bg-black py-24">
+    <section id="about" className="relative bg-black py-24 section-ambient">
       <div className="section-container">
         <motion.div
           ref={ref}

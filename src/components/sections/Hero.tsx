@@ -102,6 +102,9 @@ const Hero = () => {
         style={{ width: "120%", height: "120%" }}
       />
 
+      {/* Bottom fade to blend into next section */}
+      <div className="section-fade-bottom" />
+
       {/* Content layer */}
       <div className="relative z-10 flex flex-col min-h-screen">
         {/* Spacer for navbar */}

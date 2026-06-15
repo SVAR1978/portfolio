@@ -98,7 +98,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="relative min-h-screen bg-black">
+    <section id="skills" className="relative min-h-screen bg-black section-ambient">
       <div className="section-container flex flex-col min-h-screen">
         <motion.div
           ref={ref}

@@ -23,27 +23,27 @@ export const skills = {
 };
 
 export const projects = [
-  
+
   {
     title: "Sentry — Real-Time Monitoring",
     description: "Distributed real-time monitoring and alerting system using WebSockets for live event streaming. Built scalable REST APIs with RBAC, optimized Prisma DB ops for 30% faster queries, and automated email alerts delivered under 2 seconds.",
     techStack: ["Node.js", "TypeScript", "WebSockets", "Prisma"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SVAR1978/Sentry_app",
   },
   {
     title: "Security Management Dashboard",
     description: "Full-stack security platform with real-time risk scoring, OWASP vulnerability tracking, drag-and-drop Kanban board, Redis caching with per-user isolation, and multi-format reporting with PDF/CSV/JSON export.",
     techStack: ["React 19", "Express 5", "PostgreSQL", "Redis"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SVAR1978/security-dashboard",
   },
   {
     title: "AI Interviewer",
     description: "ML-powered interview simulator generating 500+ dynamic technical and behavioral questions via OpenAI API. Delivers personalized feedback improving answer quality by 25%, with 30% reduced API latency through caching.",
     techStack: ["React.js", "Node.js", "Python", "OpenAI API"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SVAR1978/ai-interviewer",
   },
   {
     title: "Real-Time Chat Application",

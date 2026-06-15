@@ -89,6 +89,10 @@ const Projects = () => {
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
 
+      {/* Top + bottom fades to blend into adjacent sections */}
+      <div className="section-fade-top" />
+      <div className="section-fade-bottom" />
+
       {/* Content */}
       <div className="relative z-10 px-8 md:px-16 lg:px-20 pt-24 pb-10 flex flex-col min-h-screen">
         <motion.div

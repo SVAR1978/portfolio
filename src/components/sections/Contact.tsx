@@ -51,7 +51,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="relative bg-black">
+    <section id="contact" className="relative bg-black section-ambient">
       <div className="section-container">
         <motion.div
           ref={ref}

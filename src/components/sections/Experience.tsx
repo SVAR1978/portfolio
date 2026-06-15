@@ -25,7 +25,7 @@ const Experience = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="experience" className="relative bg-black">
+    <section id="experience" className="relative bg-black section-ambient">
       <div className="section-container">
         <motion.div
           ref={ref}
