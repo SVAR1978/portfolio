@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "rn07051978@gmail.com",
   github: "https://github.com/SVAR1978",
   linkedin: "https://www.linkedin.com/in/vikash-adivasi",
-  resumeUrl: "#",
+  resumeUrl: "https://drive.google.com/file/d/1EdREzjRGFHHQxUYqDFKrnjHDAfmAp6H4/view?usp=share_link",
 };
 
 export const aboutText = `I am a dedicated Software Engineering student with a passion for building practical, 
