@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { personalInfo } from "@/data/portfolioData";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -67,7 +68,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="mailto:vikash@example.com"
+            href={`mailto:${personalInfo.email}`}
             className="bg-white text-black rounded-full px-4 py-2 text-sm font-medium font-body whitespace-nowrap flex items-center gap-1.5 ml-1 hover:bg-white/90 transition-colors"
           >
             Hire Me
@@ -107,7 +108,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="mailto:vikash@example.com"
+                href={`mailto:${personalInfo.email}`}
                 className="bg-white text-black rounded-full px-4 py-3 text-sm font-medium font-body text-center flex items-center justify-center gap-1.5 mt-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
